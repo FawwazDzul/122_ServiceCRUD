@@ -38,7 +38,7 @@ app.post('/biodata', (req, res) => {
     const {id, nama, nim, kelas } = req.body;
 
     pool.query(
-        'INSERT INTO biodata(id, nama, nim, kelas) VALUES($1, $2, $3, $4)', 
+        'INSERT INTO biodata(id, nama, nim, kelas) VALUES($1, $2, $3, $4) RETURNING *', 
         [id, nama, nim, kelas]
     )
         .then(results => res.json(results.rows[0]))
