@@ -1,5 +1,5 @@
 GET data
-<img width="777" height="906" alt="image" src="https://github.com/user-attachments/assets/7e514584-3cce-40c0-802b-1d2c67313133" />
+<img width="1856" height="1078" alt="image" src="https://github.com/user-attachments/assets/d180ac03-a556-400a-8019-12b95d262fa8" />
 POST data
 <img width="1823" height="1078" alt="image" src="https://github.com/user-attachments/assets/d653eb23-5177-4e9e-9a47-2a2f6a8d782d" />
 PUT data
